@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    max-width: 100%;
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+}
+
+header {
+    background: url(https://i.pinimg.com/736x/c9/7a/fd/c97afdc7e526a2630ebfa59e0c6d5571.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.card {
+    margin-top: 1.5rem;
+}
+
+.card:hover {
+    scale: 1.01;
+    transition-duration: 1s;
+}
+
+.Kedvenc {
+    background-color: rgb(248, 34, 255);
+    color: white;
+    font-weight: bold;
+    right: 0;
+    border-bottom-left-radius: 3rem;
+    border-top-left-radius: 3rem;
+    padding-right: 0;
+}
+.card-footer, .gomb {
+    text-align: center;
+}
+
+.elso {
+    z-index: 5;
+}
+.masodik {
+    z-index: 4;
+}
+.harmadik {
+    z-index: 3;
+}
+.negyedik {
+    z-index: 2;
+}
+.btn-img {
+    height: 3rem;
+    width: auto;
+    border-radius: 10px;
+    background-position: cover;
+}
+.oldalteteje {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.zenekep, .eloadokep {
+    background-image: url('https://muzikercdn.com/uploads/products/14653/1465370/main_3f040d30.jpg');
+}
